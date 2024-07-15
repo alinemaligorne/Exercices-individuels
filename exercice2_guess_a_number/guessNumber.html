@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script type="text/javascript" rel="javascript" src="guess.js" defer></script>
+    <title>Guess Number</title>
+</head>
+<body>
+<header>
+    <h1>ADA TECH SCHOOL</h1>
+</header>
+
+<main>
+    <h2>Guess Number</h2>
+
+        <p>Joueur 2: Donne moi un nombre entre 0 et 50</p>
+        <div class="playerTwo">
+            <label for="numberPlayer2"> <span> 0 < </span></label>
+            <input type="number" name="numberPlayer2" id="numberPlayer2" min="0" max="50" step="1" minlength="1" maxlength="2">
+            <span> < 50 </span>
+            <button onclick="gamePlay()" type="button" id="buttonPlayerTwo">Entrez un nombre</button>
+        </div>
+</main>
+</body>
+</html>
