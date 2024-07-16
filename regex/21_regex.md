@@ -3,12 +3,13 @@
 Cet exercice propose une approche "découverte" des expressions régulières.
 Il ne s'agira donc pas là d'un exercice conventionnel qui reprendrait l'aspect challenge technique en mettant l'accent sur de l'algorithmie.
 
-Au fil des étapes de l'exercice, vous aurez l'occasion de comprendre les mécanismes des regexp et la manière dont les utiliser. Nous utiliserons donc le javascript comme langage de programmation pour employer les expression produites au fil des étapes par pure convinience. Il vous est tout à fait possible de travailler avec un autre langage ou d'aller sur des application web tel que https://regex101.com/.
+Au fil des étapes de l'exercice, vous aurez l'occasion de comprendre les mécanismes des regexp et la manière dont nous devons les utiliser. 
+Nous utiliserons donc le javascript comme langage de programmation pour employer les expression produites au fil des étapes par pure convinience. Il vous est tout à fait possible de travailler avec un autre langage ou d'aller sur des application web tel que https://regex101.com/.
 
 ## Étape 0 : Définition et usages
 
-Les expression régulière sont un outil qui permet retrouver des schémas dans un chaine de caractère.
-Les cas d'usage des plus fréquents sont la verification et validation de saisie utilisateurs, ainsi que la recherche de tèrmes spécifiques dans du texte.
+Les expression régulière sont un outil qui permet de retrouver des schémas dans une chaine de caractère.
+Les cas d'usage les plus fréquents sont la verification et la validation de saisie utilisateur, ainsi que la recherche de tèrmes spécifiques dans du texte.
 La syntaxe des regexp (ou regex) est connue pour sa complexité à la lecture mais les regex sont de puissants alliés en tant que developpeu.se.r.
 Les regex ne sont pas spécifiques à un langage et sont facile à utiliser une fois l'expression écrite.
 
@@ -34,7 +35,7 @@ Pour commencer, écrire l'expression pour retrouver une suite spécifique.
 Dans la chaine suivante :
 
 ```
-const str = "J'utilise les expressions regulière pour retrouver des schémas de text au sein d'une chaine de caractères."
+const str = "J'utilise les expressions regulière pour retrouver des schémas de texte au sein d'une chaîne de caractères."
 
 ```
 
@@ -47,7 +48,7 @@ console.log(str.match(exp).length)
 
 ```
 
-Attention, pour qu'une expression retourne toutes les occurences d'un resultat, assrez-vous d'utiliser l'opérateur "g" (pour "global"), comme suit : `/<ma regex>/g`
+Attention, pour qu'une expression retourne toutes les occurences d'un resultat, assurez-vous d'utiliser l'opérateur "g" (pour "global"), comme suit : `/<ma regex>/g`
 Le resultat attendu est 2.
 
 ## Étape 2 : ... ou une autre ...
