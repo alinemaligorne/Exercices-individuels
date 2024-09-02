@@ -9,7 +9,7 @@ Création de prompt et récupération de valeur rentrée par l'utilisateur.
 ------------------------------
 English version
 
-First steps on javascript and HTML
+First steps on javascript and HTML:
 
 Manipulation of variables, character strings, functions, numbers.
 Creating an HTML tag in javascript.
